@@ -52,6 +52,12 @@
     text-align: left;
 }
 
+.contact__input:focus-visible {
+    outline: 2px solid var(--color-amarillo);
+    outline-offset: 2px;
+}
+
+
 .contact__input {
     font-size: 18px;
     padding: 10px;
@@ -80,4 +86,12 @@
 .contact__button:hover {
     background-color: var(--color-secondary);
     color: var(--color-amarillo);
+}
+
+
+
+@media (max-width: 768px) {
+    .contact__container {
+        flex-direction: column;
+    }
 }

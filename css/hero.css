@@ -47,3 +47,15 @@
 
 
 
+@media (max-width: 768px) {
+    .hero__name {
+        font-size: 80px;
+    }
+
+    .hero {
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
